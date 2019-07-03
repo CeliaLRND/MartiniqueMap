@@ -1,0 +1,53 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    
+          -webkit-font-smoothing: antialiased;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(61, 146, 201);
+}
+a:hover,
+a:focus {
+    text-decoration: underline;
+}
+
+h3 {
+    font-weight: 100;
+}
+
+/* LAYOUT CSS */
+.pure-img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+#layout {
+    padding: 0;
+}
+
+
+.sidebar {
+    background: rgb(61, 79, 93);
+    color: #fff;
+}
+
+
+
+@media (min-width: 48em) {
+    .content {
+        margin-left: 66.6666%;
+    }
+
+
+
+    .sidebar {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+    }
+}

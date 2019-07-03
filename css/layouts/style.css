@@ -1,0 +1,123 @@
+body {
+	background-color: #eaeaf4;
+}
+#mapid { 
+    //height: 100vh;
+    height: calc(100vh);
+}
+
+
+
+      @media (max-width: 47.999em) {
+          #mapid { 
+		    //height: 50vh;
+		    height: calc(50vh);
+			}
+		 .map-mq {
+			-webkit-box-shadow: 1px 0 2px 0 rgba(128, 128, 129, 0.4), 7px 0 23px 0 rgba(125, 125, 125, 0.5);
+			box-shadow: 1px 0 2px 0 rgba(128, 128, 129, 0.4), 7px 0 23px 0 rgba(125, 125, 125, 0.5);
+			-webkit-transition: width .3s cubic-bezier(0,1,.55,1);
+			transition: width .3s cubic-bezier(0,1,.55,1);
+		    z-index: 9;
+		    position: fixed;
+		 }
+		  .list-mq {
+		  	margin-top: 50vh;
+
+ }
+}
+
+
+
+ .map-mq {
+-webkit-box-shadow: 1px 0 2px 0 rgba(0,0,40,.08),6px 0 10px 0 rgba(0,0,40,.08);
+box-shadow: 1px 0 2px 0 rgba(0,0,40,.08),6px 0 10px 0 rgba(0,0,40,.08);
+-webkit-transition: width .3s cubic-bezier(0,1,.55,1);
+transition: width .3s cubic-bezier(0,1,.55,1);
+border-radius: 0 8px 8px 0;
+ }
+ .list-mq {
+
+ }
+
+.place {
+	border: 1px solid #dfe8ed;
+	background-color: white;
+	padding: 0.5em;
+	margin: 7px;
+    border-radius: 8px;
+}
+
+.place:hover {
+	    border-left: 6px solid #fae992;
+	    -webkit-transition: border .3s cubic-bezier(0,1,.55,1);
+			transition: border .3s cubic-bezier(0,1,.55,1);
+}
+
+
+.rank {
+  background: #ff4343;
+  border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.6em;
+  margin-right: 5px;
+  text-align: center;
+  width: 1.6em; 
+}
+
+.nc {
+  background: #00b674;
+}
+
+.price {
+	margin-left: 3px;
+	font-weight: bold;
+	font-size: 0.8em;
+	color: #d7d5d5;
+}
+
+.price .red-col {
+color: #ffc114;
+}
+.location {
+	margin-right: 3px;
+}
+
+.place .title {
+	color: #363636;
+    font-size: 1.06rem;
+    line-height: 1.5;
+    font-weight: 600;
+
+}
+
+.place .description {
+	    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #8f8f8f;
+    margin: 5px 0 5px 0;
+}
+
+.place .address {
+        padding-top: 0.5rem;
+    border-top: 1px solid #eeeeee;
+    color: #bbb;
+        font-size: 0.95rem;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+.place .address i {
+	font-size: 0.8em;
+}
+
+.credit {
+	    text-align: center;
+    color: #b5b5b5;
+    margin: 20px 10px 5px 10px;
+    font-size: 0.85em;
+}
