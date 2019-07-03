@@ -49,14 +49,13 @@ border-radius: 0 8px 8px 0;
 }
 
 .place:hover {
-	    border-left: 6px solid #fae992;
+	    border-left: 6px solid #dfe8ed;
 	    -webkit-transition: border .3s cubic-bezier(0,1,.55,1);
 			transition: border .3s cubic-bezier(0,1,.55,1);
 }
 
 
 .rank {
-  background: #ff4343;
   border-radius: 0.8em;
   -moz-border-radius: 0.8em;
   -webkit-border-radius: 0.8em;
@@ -71,6 +70,18 @@ border-radius: 0 8px 8px 0;
 
 .nc {
   background: #00b674;
+}
+
+.na {
+  background: #94e88a;
+}
+
+.ce {
+  background: #ffdc58;
+}
+
+.su {
+  background: #ff4343;
 }
 
 .price {
