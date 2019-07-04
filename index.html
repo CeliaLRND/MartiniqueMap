@@ -28,8 +28,8 @@
 
 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
@@ -127,6 +127,7 @@
                         <i class="fas fa-map-marker-alt location"></i>Domaine Thieubert, Le Coin, 97221 Le Carbet
                     </div>
                 </div>
+
                 <div class="place">
                     <div class="title">
                         <span class="rank nc">2</span>Petitbonum
@@ -136,6 +137,7 @@
                         <i class="fas fa-map-marker-alt location"></i>Plage du Coin, 97221 Le Carbet
                     </div>
                 </div>
+
                 <div class="place">
                     <div class="title">
                         <span class="rank nc">3</span>Distillerie Depaz
@@ -469,7 +471,6 @@
 
 var locationIcon = L.Icon.extend({
     options: {
-        shadowUrl: 'leaf-shadow.png',
         iconSize:     [25, 35],
         iconAnchor:   [32, 40],
         popupAnchor:  [-15, -35]
@@ -544,7 +545,7 @@ L.marker([14.66639, -60.99985], {icon: ce2Icon}).addTo(mymap).bindPopup("Le Stea
 L.marker([14.6166151, -61.0029769], {icon: ce3Icon}).addTo(mymap).bindPopup("Marché / Fort St Louis");
 L.marker([14.6354282, -61.0348357], {icon: ce4Icon}).addTo(mymap).bindPopup("Distillerie La Favorite");
 L.marker([14.6710617, -61.0919302], {icon: ce5Icon}).addTo(mymap).bindPopup("Jardin de Balata / Absalon");
-L.marker([14.66639, -60.99985], {icon: ce6Icon}).addTo(mymap).bindPopup("Distillerie HSE");
+L.marker([14.690248,-61.013819], {icon: ce6Icon}).addTo(mymap).bindPopup("Distillerie HSE");
 
 L.marker([14.602348, -60.907170], {icon: su1Icon}).addTo(mymap).bindPopup("Habitation Clément");
 L.marker([14.6156, -60.9031], {icon: su2Icon}).addTo(mymap).bindPopup("Baignoire de Joséphine");

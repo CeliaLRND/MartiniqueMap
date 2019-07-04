@@ -60,6 +60,19 @@ border-radius: 0 8px 8px 0;
 
 
 .rank {
+
+  border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8;
+    color: #ffffff;
+    display: inline-block;
+    line-height: 1.3em;
+    margin-right: 5px;
+    text-align: center;
+    width: 1.2em;
+    font-size: 0.85em;
+
+  /*
   border-radius: 0.8em;
   -moz-border-radius: 0.8em;
   -webkit-border-radius: 0.8em;
@@ -69,7 +82,7 @@ border-radius: 0 8px 8px 0;
   line-height: 1.6em;
   margin-right: 5px;
   text-align: center;
-  width: 1.6em; 
+  width: 1.6em;*/
 }
 
 .nc {
